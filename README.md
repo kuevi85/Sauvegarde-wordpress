@@ -1,22 +1,19 @@
 # Sauvegarde-wordpress
 script en python pour sauvegarder wordpress sur un site distant
 
-Personnaliser les champs avec des **** suivant :
+Personnaliser les champs avec les **** 
+Indiquer le répertoire de wordpress
+Indiquer un répértoire de backup
+Nom de l'utilisateur de la BDD wordpress
+Nom de la BDD wordpress
+Mot de passe de la BDD 
 
-SRV_LOCAL = {
-        'dir_wordpress' : '/var/www/*****',                   #Indiquer répertoire de wordpress
-        'dir_to_backup' : '/******',                          #Indiquer un répértoire de backup
-        'db_username' : '**********',                         #Nom de l'utilisateur de la BDD wordpress
-        'db_name' : '*********',                              #Nom de la BDD wordpress
-        'db_password' : '******',                             #Mot de passe de la BDD 
-    }
+Chemin du répertoire de backup sur serveur distant
+Adresse du serveur distant
+Port de connexion SSH
+Nom d'utilisateur
 
-SRV_DISTANT = {
-        'dir' : '*********',                                    #Chemin du répertoire de backup sur serveur distant
-        'server' : '********',                                 #Adresse du serveur distant
-        'port' : '*****',                                      #Port de connexion SSH
-        'login' : '********',                                  #Nom d'utilisateur
-    }
-    
-    
-mailserver.login('*******@gmail.com', '********')               # Email et mot de passe de boite mail
+
+indiquer mail et mot de passe de boite mail à la place des ****:
+
+mailserver.login('*******@gmail.com', '********')  
